@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu{
+            display:inline;
+        }
+        li {
+            list-style-type:none;
+        }
+        nav{
+            background-color: darkslategray;
+            padding:30px;
+            border-radius:50px;
+        }
+        .nav-link1,.nav-link2,.nav-link3,.nav-link4,.nav-link5{
+            display:inline;
+            padding:10px;
+        }
+        a{
+            text-decoration:none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:white;
+            padding:30px;
+            font-weight:800;
+            font-size:20px;
+        }
+        .drop-link{
+            list-style-type:none;
+            padding:10px;
+        }
+        .dropdown1{
+            display:none;
+            position:absolute;
+            background-color:dimgray;
+            z-index:5;
+            padding:10px;
+            border-radius:40px;
+            
+        }
+        .dropdown2{
+            display:none;
+            position:absolute;
+            left: 200px;
+            background-color:dimgray;
+            z-index:8;
+            padding:10px;
+            border-radius:40px;
+        }
+        .dropdown3{
+            display:none;
+            position:absolute;
+            background-color:dimgray;
+            z-index:3;
+            padding:10px;
+            border-radius:40px;
+        }
+        .dropdown4{
+            display:none;
+            position:absolute;
+            background-color:dimgray;
+            z-index:4;
+            padding:10px;
+            border-radius:40px;
+        }
+        .dropdown5{
+            display:none;
+            position:absolute;
+            background-color:dimgray;
+            z-index:5;
+            padding:10px;
+            border-radius:40px;
+        }
+        .nav-link1:hover .dropdown1{
+            display:block;
+        }
+        .nav-link2:hover .dropdown2{
+            display:block;
+        }
+        .nav-link3:hover .dropdown3{
+            display:block;
+        }
+        .nav-link4:hover .dropdown4{
+            display:block;
+        }
+        .nav-link5:hover .dropdown5{
+            display:block;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="nav-link1 btn"><a href="#">Home</a>
+            <ul class="dropdown1">
+                <li class="drop-link"><a href="#">Home1</a></li>
+                <li class="drop-link"><a href="#">Home2</a></li>
+                <li class="drop-link"><a href="#">Home3</a></li>
+                <li class="drop-link"><a href="#">Home4</a></li>
+                <li class="drop-link"><a href="#">Home5</a></li>
+            </ul>
+            </li>
+            <li class="nav-link2 btn"><a href="#">Display</a>
+                <ul class="dropdown2">
+                    <li class="drop-link"><a href="#">Display1</a></li>
+                    <li class="drop-link"><a href="#">Display2</a></li>
+                    <li class="drop-link"><a href="#">Display3</a></li>
+                    <li class="drop-link"><a href="#">Display4</a></li>
+                    <li class="drop-link"><a href="#">Display5</a></li>
+                </ul>
+            </li>
+            <li class="nav-link3 btn"><a href="#">Contact</a>
+                <ul class="dropdown3">
+                    <li class="drop-link"><a href="#">Contact1</a></li>
+                    <li class="drop-link"><a href="#">Contact2</a></li>
+                    <li class="drop-link"><a href="#">Contact3</a></li>
+                    <li class="drop-link"><a href="#">Contact4</a></li>
+                    <li class="drop-link"><a href="#">Contact5</a></li>
+                </ul>
+            </li>
+            <li class="nav-link4 btn"><a href="#">Gallery</a>
+                <ul class="dropdown4">
+                    <li class="drop-link"><a href="#">Gallery1</a></li>
+                    <li class="drop-link"><a href="#">Gallery2</a></li>
+                    <li class="drop-link"><a href="#">Gallery3</a></li>
+                    <li class="drop-link"><a href="#">Gallery4</a></li>
+                    <li class="drop-link"><a href="#">Gallery5</a></li>
+                </ul>
+            </li>
+            <li class="nav-link5 btn"><a href="#">About</a>
+                <ul class="dropdown5">
+                    <li class="drop-link"><a href="#">About1</a></li>
+                    <li class="drop-link"><a href="#">About2</a></li>
+                    <li class="drop-link"><a href="#">About3</a></li>
+                    <li class="drop-link"><a href="#">About4</a></li>
+                    <li class="drop-link"><a href="#">About5</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
